@@ -3,14 +3,17 @@
     package="com.example.cs455_termproject">
 
     <application
+
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CS455_TermProject">
-        <activity android:name=".ElementActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ElementDetail"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
