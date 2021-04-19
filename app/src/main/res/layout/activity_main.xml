@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/tableLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <TableLayout
-        android:id="@+id/tableLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="5dp"
-        android:gravity="center"
-        android:stretchColumns="*">
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:stretchColumns="*">
 
         <TableRow
             android:id="@+id/etableRow1"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:clickable="false"
@@ -30,188 +28,123 @@
                 android:background="@color/color1"
                 android:elevation="3dp"
                 android:gravity="center"
-
-                android:text="1\nH"
-                android:textSize="11dp"
+                android:text="@string/_1_nh"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
 
             <TextView
@@ -223,8 +156,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="2\nHe"
-                android:textSize="11dp"
+                android:text="@string/_2_nhe"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -232,7 +165,7 @@
 
         <TableRow
             android:id="@+id/etableRow2"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:clickable="false"
@@ -248,8 +181,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="3\nLi"
-                android:textSize="11dp"
+                android:text="@string/_3_nli"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -261,117 +194,79 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="4\nBe"
-                android:textSize="11dp"
+                android:text="@string/_4_nbe"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:clickable="false"
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:clickable="false"
+                android:elevation="3dp"/>
 
             <TextView
                 android:id="@+id/e5"
@@ -381,9 +276,8 @@
                 android:background="@color/color9"
                 android:elevation="3dp"
                 android:gravity="center"
-
-                android:text="5\nB"
-                android:textSize="11dp"
+                android:text="@string/_5_nb"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -394,9 +288,8 @@
                 android:background="@color/color6"
                 android:elevation="3dp"
                 android:gravity="center"
-
-                android:text="6\nC"
-                android:textSize="11dp"
+                android:text="@string/_6_nc"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -408,8 +301,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="7\nN"
-                android:textSize="11dp"
+                android:text="@string/_7_nn"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -421,8 +314,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="8\nO"
-                android:textSize="11dp"
+                android:text="@string/_8_no"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -434,8 +327,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="9\nF"
-                android:textSize="11dp"
+                android:text="@string/_9_nf"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -448,8 +341,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="10\nNe"
-                android:textSize="11dp"
+                android:text="@string/_10_nne"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -457,7 +350,7 @@
 
         <TableRow
             android:id="@+id/etableRow3"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:clickable="false"
@@ -473,8 +366,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="11\nNa"
-                android:textSize="11dp"
+                android:text="@string/_11_nna"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -486,117 +379,81 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="12\nMg"
-                android:textSize="11dp"
+                android:text="@string/_12_nmg"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
-            <TextView
+
+
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:clickable="false"
+                android:elevation="3dp"/>
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:clickable="false"
+                android:elevation="3dp"/>
 
 
             <TextView
@@ -608,8 +465,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="13\nAl"
-                android:textSize="11dp"
+                android:text="@string/_13_nal"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -621,8 +478,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="14\nSi"
-                android:textSize="11dp"
+                android:text="@string/_14_nsi"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -634,8 +491,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="15\nP"
-                android:textSize="11dp"
+                android:text="@string/_15_np"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -647,8 +504,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="16\nS"
-                android:textSize="11dp"
+                android:text="@string/_16_ns"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -660,8 +517,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="17\nCl"
-                android:textSize="11dp"
+                android:text="@string/_17_ncl"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -674,8 +531,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="18\nAr"
-                android:textSize="11dp"
+                android:text="@string/_18_nar"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -683,7 +540,7 @@
 
         <TableRow
             android:id="@+id/etableRow4"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:clickable="false"
@@ -699,8 +556,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="19\nK"
-                android:textSize="11dp"
+                android:text="@string/_19_nk"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -712,8 +569,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="20\nCa"
-                android:textSize="11dp"
+                android:text="@string/_20_nca"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -725,8 +582,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="21\nSc"
-                android:textSize="11dp"
+                android:text="@string/_21_nsc"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -738,8 +595,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="22\nTi"
-                android:textSize="11dp"
+                android:text="@string/_22_nti"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -752,8 +609,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="23\nV"
-                android:textSize="11dp"
+                android:text="@string/_23_nv"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -765,8 +622,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="24\nCr"
-                android:textSize="11dp"
+                android:text="@string/_24_ncr"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -778,8 +635,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="25\nMn"
-                android:textSize="11dp"
+                android:text="@string/_25_nmn"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -791,8 +648,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="26\nFe"
-                android:textSize="11dp"
+                android:text="@string/_26_nfe"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -804,8 +661,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="27\nCo"
-                android:textSize="11dp"
+                android:text="@string/_27_nco"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -817,8 +674,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="28\nNi"
-                android:textSize="11dp"
+                android:text="@string/_28_nni"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -830,8 +687,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="29\nCu"
-                android:textSize="11dp"
+                android:text="@string/_29_ncu"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -843,8 +700,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="30\nZn"
-                android:textSize="11dp"
+                android:text="@string/_30_nzn"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -856,8 +713,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="31\nGa"
-                android:textSize="11dp"
+                android:text="@string/_31_nga"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -869,8 +726,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="32\nGe"
-                android:textSize="11dp"
+                android:text="@string/_32_nge"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -882,8 +739,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="33\nAs"
-                android:textSize="11dp"
+                android:text="@string/_33_nas"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -895,8 +752,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="34\nSe"
-                android:textSize="11dp"
+                android:text="@string/_34_nse"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -908,8 +765,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="35\nBr"
-                android:textSize="11dp"
+                android:text="@string/_35_nbr"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -922,8 +779,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="36\nKr"
-                android:textSize="11dp"
+                android:text="@string/_36_nkr"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -931,7 +788,7 @@
 
         <TableRow
             android:id="@+id/etableRow5"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:clickable="false"
@@ -947,8 +804,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="37\nRb"
-                android:textSize="11dp"
+                android:text="@string/_37_nrb"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -960,8 +817,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="38\nSr"
-                android:textSize="11dp"
+                android:text="@string/_38_nsr"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -973,8 +830,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="39\nY"
-                android:textSize="11dp"
+                android:text="@string/_39_ny"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -986,8 +843,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="40\nZr"
-                android:textSize="11dp"
+                android:text="@string/_40_nzr"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -1000,8 +857,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="41\nNb"
-                android:textSize="11dp"
+                android:text="@string/_41_nnb"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1013,8 +870,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="42\nMo"
-                android:textSize="11dp"
+                android:text="@string/_42_nmo"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1026,8 +883,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="43\nTc"
-                android:textSize="11dp"
+                android:text="@string/_43_ntc"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1039,8 +896,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="44\nRu"
-                android:textSize="11dp"
+                android:text="@string/_44_nru"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1052,8 +909,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="45\nRh"
-                android:textSize="11dp"
+                android:text="@string/_45_nrh"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1065,8 +922,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="46\nPd"
-                android:textSize="11dp"
+                android:text="@string/_46_npd"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1078,8 +935,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="47\nAg"
-                android:textSize="11dp"
+                android:text="@string/_47_nag"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1091,8 +948,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="48\nCd"
-                android:textSize="11dp"
+                android:text="@string/_48_ncd"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1104,8 +961,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="49\nIn"
-                android:textSize="11dp"
+                android:text="@string/_49_nin"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1117,8 +974,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="50\nSn"
-                android:textSize="11dp"
+                android:text="@string/_50_nsn"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1130,8 +987,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="51\nSb"
-                android:textSize="11dp"
+                android:text="@string/_51_nsb"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1143,8 +1000,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="52\nTe"
-                android:textSize="11dp"
+                android:text="@string/_52_nte"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1156,8 +1013,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="53\nI"
-                android:textSize="11dp"
+                android:text="@string/_53_ni"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -1170,8 +1027,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="54\nXe"
-                android:textSize="11dp"
+                android:text="@string/_54_nxe"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -1179,7 +1036,7 @@
 
         <TableRow
             android:id="@+id/etableRow6"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:clickable="false"
@@ -1195,8 +1052,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="55\nCs"
-                android:textSize="11dp"
+                android:text="@string/_55_ncs"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1208,8 +1065,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="56\nBa"
-                android:textSize="11dp"
+                android:text="@string/_56_nba"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1221,8 +1078,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="57\nLa"
-                android:textSize="11dp"
+                android:text="@string/_57_nla"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1234,8 +1091,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="72\nHf"
-                android:textSize="11dp"
+                android:text="@string/_72_nhf"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -1248,8 +1105,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="73\nTa"
-                android:textSize="11dp"
+                android:text="@string/_73_nta"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1261,8 +1118,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="74\nW"
-                android:textSize="11dp"
+                android:text="@string/_74_nw"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1274,8 +1131,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="75\nRe"
-                android:textSize="11dp"
+                android:text="@string/_75_nre"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1287,8 +1144,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="76\nOs"
-                android:textSize="11dp"
+                android:text="@string/_76_nos"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1300,8 +1157,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="77\nIr"
-                android:textSize="11dp"
+                android:text="@string/_77_nir"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1313,8 +1170,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="78\nPt"
-                android:textSize="11dp"
+                android:text="@string/_78_npt"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1326,8 +1183,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="79\nAu"
-                android:textSize="11dp"
+                android:text="@string/_79_nau"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1339,8 +1196,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="80\nHg"
-                android:textSize="11dp"
+                android:text="@string/_80_nhg"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1352,8 +1209,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="81\nTi"
-                android:textSize="11dp"
+                android:text="@string/_81_nti"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1365,8 +1222,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="82\nPb"
-                android:textSize="11dp"
+                android:text="@string/_82_npb"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1378,8 +1235,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="83\nBi"
-                android:textSize="11dp"
+                android:text="@string/_83_nbi"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1391,8 +1248,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="84\nPo"
-                android:textSize="11dp"
+                android:text="@string/_84_npo"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1404,8 +1261,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="85\nAt"
-                android:textSize="11dp"
+                android:text="@string/_85_nat"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -1418,8 +1275,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="86\nRn"
-                android:textSize="11dp"
+                android:text="@string/_86_nrn"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -1427,7 +1284,7 @@
 
         <TableRow
             android:id="@+id/etableRow7"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:clickable="false"
@@ -1443,8 +1300,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="87\nFr"
-                android:textSize="11dp"
+                android:text="@string/_87_nfr"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1456,8 +1313,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="88\nRa"
-                android:textSize="11dp"
+                android:text="@string/_88_nra"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1469,8 +1326,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="89\nAc"
-                android:textSize="11dp"
+                android:text="@string/_89_nac"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1482,8 +1339,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="104\nRf"
-                android:textSize="11dp"
+                android:text="@string/_104_nrf"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -1496,8 +1353,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="105\nDb"
-                android:textSize="11dp"
+                android:text="@string/_105_ndb"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1509,8 +1366,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="106\nSg"
-                android:textSize="11dp"
+                android:text="@string/_106_nsg"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1522,8 +1379,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="107\nBh"
-                android:textSize="11dp"
+                android:text="@string/_107_nbh"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1535,8 +1392,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="108\nHs"
-                android:textSize="11dp"
+                android:text="@string/_108_nhs"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1548,8 +1405,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="109\nMt"
-                android:textSize="11dp"
+                android:text="@string/_109_nmt"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1561,8 +1418,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="110\nDs"
-                android:textSize="11dp"
+                android:text="@string/_110_nds"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1574,8 +1431,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="111\nRg"
-                android:textSize="11dp"
+                android:text="@string/_111_nrg"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1587,8 +1444,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="112\nCn"
-                android:textSize="11dp"
+                android:text="@string/_112_ncn"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1600,8 +1457,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="113\nNh"
-                android:textSize="11dp"
+                android:text="@string/_113_nnh"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1613,8 +1470,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="114\nFl"
-                android:textSize="11dp"
+                android:text="@string/_114_nfl"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1626,8 +1483,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="115\nMc"
-                android:textSize="11dp"
+                android:text="@string/_115_nmc"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1639,8 +1496,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="116\nLv"
-                android:textSize="11dp"
+                android:text="@string/_116_nlv"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1652,8 +1509,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="117\nTs"
-                android:textSize="11dp"
+                android:text="@string/_117_nts"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -1666,8 +1523,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="118\nOg"
-                android:textSize="11dp"
+                android:text="@string/_118_nog"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -1675,7 +1532,7 @@
 
         <TableRow
             android:id="@+id/etableRow8"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:layout_weight="3"
@@ -1683,38 +1540,28 @@
             android:orientation="horizontal">
 
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="2dp"
-                android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="2dp"
-                android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
 
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:clickable="false"
+                android:elevation="3dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:clickable="false"
+                android:elevation="3dp"/>
 
             <TextView
                 android:id="@+id/e58"
@@ -1725,8 +1572,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="58\nCe"
-                android:textSize="11dp"
+                android:text="@string/_58_nce"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -1739,8 +1586,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="59\nPr"
-                android:textSize="11dp"
+                android:text="@string/_59_npr"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1752,8 +1599,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="60\nNd"
-                android:textSize="11dp"
+                android:text="@string/_60_nnd"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1765,8 +1612,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="61\nPm"
-                android:textSize="11dp"
+                android:text="@string/_61_npm"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1778,8 +1625,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="62\nSm"
-                android:textSize="11dp"
+                android:text="@string/_62_nsm"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1791,8 +1638,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="63\nEu"
-                android:textSize="11dp"
+                android:text="@string/_63_neu"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1804,8 +1651,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="64\nGd"
-                android:textSize="11dp"
+                android:text="@string/_64_ngd"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1817,8 +1664,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="65\nTb"
-                android:textSize="11dp"
+                android:text="@string/_65_ntb"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1830,8 +1677,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="66\nDy"
-                android:textSize="11dp"
+                android:text="@string/_66_ndy"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1843,8 +1690,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="67\nHo"
-                android:textSize="11dp"
+                android:text="@string/_67_nho"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1856,8 +1703,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="68\nEr"
-                android:textSize="11dp"
+                android:text="@string/_68_ner"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1869,8 +1716,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="69\nTm"
-                android:textSize="11dp"
+                android:text="@string/_69_ntm"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1882,8 +1729,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="70\nYb"
-                android:textSize="11dp"
+                android:text="@string/_70_nyb"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1895,69 +1742,49 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="71\nLu"
-                android:textSize="11dp"
+                android:text="@string/_71_nlu"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
-
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
 
         </TableRow>
 
         <TableRow
             android:id="@+id/etableRow9"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
             android:layout_weight="3"
             android:clickable="false"
             android:orientation="horizontal">
 
-
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
-
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:elevation="3dp"/>
 
 
             <TextView
@@ -1969,8 +1796,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="90\nTh"
-                android:textSize="11dp"
+                android:text="@string/_90_nth"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
 
@@ -1983,8 +1810,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="91\nPa"
-                android:textSize="11dp"
+                android:text="@string/_91_npa"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -1996,8 +1823,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="92\nU"
-                android:textSize="11dp"
+                android:text="@string/_92_nu"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -2009,8 +1836,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="93\nNp"
-                android:textSize="11dp"
+                android:text="@string/_93_nnp"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -2022,8 +1849,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="94\nPu"
-                android:textSize="11dp"
+                android:text="@string/_94_npu"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -2035,8 +1862,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="95\nAm"
-                android:textSize="11dp"
+                android:text="@string/_95_nam"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -2048,8 +1875,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="96\nCm"
-                android:textSize="11dp"
+                android:text="@string/_96_ncm"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -2061,8 +1888,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="97\nBk"
-                android:textSize="11dp"
+                android:text="@string/_97_nbk"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -2074,8 +1901,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="98\nCf"
-                android:textSize="11dp"
+                android:text="@string/_98_ncf"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -2087,8 +1914,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="99\nEs"
-                android:textSize="11dp"
+                android:text="@string/_99_nes"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -2100,8 +1927,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="100\nFm"
-                android:textSize="11dp"
+                android:text="@string/_100_nfm"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -2113,8 +1940,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="101\nMd"
-                android:textSize="11dp"
+                android:text="@string/_101_nmd"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -2126,8 +1953,8 @@
                 android:elevation="3dp"
                 android:gravity="center"
 
-                android:text="102\nNo"
-                android:textSize="11dp"
+                android:text="@string/_102_nno"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -2140,169 +1967,21 @@
                 android:focusableInTouchMode="true"
 
                 android:gravity="center"
-                android:text="103\nLr"
-                android:textSize="11dp"
+                android:text="@string/_103_nlr"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
-
-            <TextView
+            <Space
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:clickable="false"
-                android:elevation="3dp"
-                android:gravity="center"
-                android:text=" "
-                android:textSize="11dp"
-                android:textStyle="bold" />
-
-
+                android:elevation="3dp"/>
         </TableRow>
 
-
-    </TableLayout>
-
-    <RelativeLayout
-        android:id="@+id/details"
-        android:layout_width="345dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/tableLayout"
-        android:layout_alignStart="@+id/tableLayout"
-        android:layout_alignTop="@+id/tableLayout"
-        android:layout_marginLeft="65dp"
-        android:layout_marginStart="65dp"
-        android:clickable="true"
-        android:elevation="2dp"
-        android:visibility="gone">
-
-        <LinearLayout
-            android:id="@+id/nameLL"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/selctedElement"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_margin="2dp"
-                android:background="@color/numBack"
-                android:elevation="5dp"
-                android:gravity="center"
-                android:text="5\nLn"
-
-                android:textColor="@android:color/white"
-                android:textSize="13dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/name"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="5dp"
-                android:gravity="center_vertical"
-                android:text="Name Of The Element"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/nameLL"
-            android:layout_marginLeft="10dp"
-            android:padding="2dp">
-
-            <LinearLayout
-                android:id="@+id/categLL"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Category:"
-                    android:textSize="11dp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/category"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:text="Category"
-                    android:textSize="11dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="10dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Color:"
-                    android:textSize="11dp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/color"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:text="color"
-                    android:textSize="11dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_below="@id/categLL">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Phase:"
-                    android:textSize="11dp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/phase"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:text="phase"
-                    android:textSize="11dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/categLL"
-                android:layout_marginRight="10dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Electrons Per Shell:"
-                    android:textSize="11dp"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:id="@+id/electrons"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:text="5"
-                    android:textSize="11dp" />
-
-            </LinearLayout>
-
-
-        </RelativeLayout>
-
-    </RelativeLayout>
+</TableLayout>
 
 
 
-</RelativeLayout>
+
+
