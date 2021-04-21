@@ -119,5 +119,18 @@
     <string name="_101_nmd">101\nMd</string>
     <string name="_102_nno">102\nNo</string>
     <string name="_103_nlr">103\nLr</string>
+    <string name="english_name">English Name:</string>
+    <string name="latin_name">Latin Name:</string>
+    <string name="year_discovered">Year Discovered:</string>
+    <string name="chemical_properties">Chemical Properties</string>
+    <string name="atomic_number">Atomic Number:</string>
+    <string name="atomic_weight">Atomic Weight:</string>
+    <string name="density">Density:</string>
+    <string name="overview">Overview</string>
+    <string name="hydrogen">Hydrogen</string>
+    <string name="_1">1</string>
+    <string name="h">H</string>
+    <string name="physical_example">Physical example of the element</string>
+    <string name="extra">Added image of atomic structure or related visuals</string>
 
 </resources>
