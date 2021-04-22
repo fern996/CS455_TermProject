@@ -18,7 +18,7 @@ The app is simple and easy to use.
 4. The app should be safely installed.
 
 ## Operating Instructions:
-The app will open by default in landscape. Tap on the different elements
-on the table to view their details. Tap the back button to go back to
-the periodic table.
+* The app will open by default in landscape.
++ Tap on the different elements on the table to view their details.
++ Tap the back button to go back to the periodic table.
 
