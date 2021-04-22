@@ -14,7 +14,9 @@ The app is simple and easy to use.
 The app was originally based of the MVC design pattern. The model was
 going to be a database using the Room database library. But due to time
 and difficulties implementing the database, I pivoted to putting all the
-elemental data into an activity.
+elemental data into an activity. This helped me to create a working app
+but, I believe, also reduced the number of ways I could use the data.
+For e.g., filtering, search functions.
 
 ## Installation:
 1. Download the .apk file onto your android device, preferably a phone.
