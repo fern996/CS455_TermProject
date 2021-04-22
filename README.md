@@ -7,7 +7,7 @@ functional and usable.
 
 The app is simple and easy to use.
 
-![Na Gif](https://media.giphy.com/media/4y58N7FpfTpT4zWfaw/giphy.gif)
+![Na Gif](https://media.giphy.com/media/2y2ZqSLwLYocfHyfFY/giphy.gif)
 ![Hf Gif](https://media.giphy.com/media/4y58N7FpfTpT4zWfaw/giphy.gif)
 
 ### Design:
