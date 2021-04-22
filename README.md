@@ -7,7 +7,7 @@ functional and usable.
 
 The app is simple and easy to use.
 
-![Na Gif](https://media.giphy.com/media/4y58N7FpfTpT4zWfaw/giphy.gif)
+![Na Gif](https://media.giphy.com/media/2y2ZqSLwLYocfHyfFY/giphy.gif)
 ![Hf Gif](https://media.giphy.com/media/4y58N7FpfTpT4zWfaw/giphy.gif)
 
 ### Design:
@@ -17,6 +17,14 @@ and difficulties implementing the database, I pivoted to putting all the
 elemental data into an activity. This helped me to create a working app
 but, I believe, also reduced the number of ways I could use the data.
 For e.g., filtering, search functions.
+
+The project makes extensive use of activity and activity intents to pass
+data along. Another quirk of building the app was the use of repeated
+text views in the layout. They number 118 in total. Android Studio does
+give an optimization warning, but I believe it was necessary for me to
+complete the project. Also, along with creating 118 text views I had to
+create 118 other things to support it. Entering data for all the
+elements took some time to complete.
 
 ## Installation:
 1. Download the .apk file onto your android device, preferably a phone.
@@ -50,6 +58,9 @@ For e.g., filtering, search functions.
   - app icon.jpeg
 - Drawable:
   - *Contains .jpg for each element*
+
+## Contact:
+For bug fixes or pest control please email me at: sfz421@uregina.ca
 
 ## Licensing:
 This project is licensed under GNU GENERAL PUBLIC LICENSE Version 3.
