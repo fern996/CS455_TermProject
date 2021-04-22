@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
-
+// Variable init
    private var e1: TextView? = null
    private var e2: TextView? = null
    private var e3: TextView? = null
@@ -131,7 +131,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
         init()
     }
-
+// Pairing variables with their respective element IDs
     private fun init() {
         e1 = findViewById(R.id.e1)
         e2 = findViewById(R.id.e2)
@@ -380,6 +380,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         e117!!.setOnClickListener(this)
         e118!!.setOnClickListener(this)
     }
+
+    /*This is the body of the click listener for the periodic table. It looks at all the element ids.
+    When a user clicks on a text view, the click listener will then execute the required code and open
+    a new Activity through intent.*/
+
     override fun onClick(p0: View?) {
         if (p0 != null) {
             when (p0.id) {

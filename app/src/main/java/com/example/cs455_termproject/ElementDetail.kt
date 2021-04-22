@@ -7,6 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 
 class ElementDetail : AppCompatActivity() {
+//    These are all the attriibute for an element. We initialize them here and set them to null
+
     private var element: String? = null
     private var elementNumber: TextView? = null
     private var elementName: TextView? = null
@@ -37,11 +39,13 @@ class ElementDetail : AppCompatActivity() {
         imgElementStruct = findViewById(R.id.img_element_structural_image)
         val intent = intent
         element = intent.getStringExtra("e")
+
+        // When serves as a more elegant option to else-if.
         when {
             element.equals("e1") -> {
 
-                imgElementImage!!.setBackgroundResource(R.drawable.hydrogen_pic)
-                imgElementStruct!!.setBackgroundResource(R.drawable.hydrogenstruc)
+                imgElementImage!!.setBackgroundResource(R.drawable.hydrogen_pic) //Sets the picture of the object
+                imgElementStruct!!.setBackgroundResource(R.drawable.hydrogenstruc) //Sets the picture of the molecular structure
                 elementNumber!!.text = "1"
                 elementSymbol!!.text = "H"
 
