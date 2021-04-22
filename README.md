@@ -10,6 +10,9 @@ The app is simple and easy to use.
 ![Na Gif](https://media.giphy.com/media/4y58N7FpfTpT4zWfaw/giphy.gif)
 ![Hf Gif](https://media.giphy.com/media/4y58N7FpfTpT4zWfaw/giphy.gif)
 
+### Design:
+The app was originally based of using
+
 ## Installation:
 1. Download the .apk file onto your android device, preferably a phone.
 2. Navigate to your phone settings menu and go to the securities
@@ -18,7 +21,7 @@ The app is simple and easy to use.
 4. The app should be safely installed.
 
 ## Operating Instructions:
-* The app will open by default in landscape.
++ The app will open by default in landscape.
 + Tap on the different elements on the table to view their details.
 + Tap the back button to go back to the periodic table.
 
